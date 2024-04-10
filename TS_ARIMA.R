@@ -1,6 +1,6 @@
 #################### Series de tiempo ARIMA ####################################
-pacman::p_load(tseries, forecast, timeSeries, astsa, lmtest, nortest, car, ggplot2,
-               tidyverse, lubridate, gridExtra)
+pacman::p_load(tseries, forecast, timeSeries, lmtest, nortest, ggplot2,
+               tidyverse, gridExtra)
 
 set.seed(1989)  #Taylor's Version
 
