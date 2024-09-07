@@ -12,7 +12,7 @@ ts_analyze <- function(ts, type = "additive", lag_max = NULL){
   lag_max <- lag_max
   
   #Descomponemos la serie en tendencia, ciclos y comp aleatoria
-  descomposicion <- decompose(ts, type = type)
+  descomposicion <- stats::decompose(ts, type = type)
     
   descomp_df <- data.frame(
     tiempo = getTime(descomposicion$x),
